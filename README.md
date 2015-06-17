@@ -26,6 +26,9 @@ debuild -S -nc -uc -us
 **Tested**
 
 ```
+Debian wheezy
+```
+```
 Debian jessie
 ```
 
