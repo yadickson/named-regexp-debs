@@ -1,34 +1,17 @@
 # named-regexp-debs
-Build Debian Package for Named capture groups for Java regular expressions (v0.2.3)
+Build Debian Package for Named capture groups for Java regular expressions
 
-**Instructions**
+**Build dependencies**
 
-Inside of the debs folder
-
-**Gets orig source code**
-
-```
-debian/rules get-orig-source
-```
-
-**Check dependencies**
-
-```
-dpkg-checkbuilddeps
-```
-
-**Build source package**
-
-```
-debuild -S -nc -uc -us
-```
+- debhelper (>= 9)
+- cdbs
+- default-jdk
+- maven-debian-helper (>= 1.5)
 
 **Tested**
 
-```
-Debian wheezy
-```
-```
-Debian jessie
-```
+- Debian wheezy
+- Debian jessie
+
+[Release page](https://github.com/yadickson/named-regexp-debs/releases)
 
